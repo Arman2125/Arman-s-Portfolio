@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arman Shaikh · Software Engineer &amp; Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Software engineer and full-stack developer working with TypeScript, Node.js, REST APIs, SQL/NoSQL databases and LLM-powered AI applications." />
+    <meta name="author" content="Arman Shaikh" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#fafaf9" />
+
+    <!-- Open Graph / social previews. Add og:url and og:image once the site has a public domain. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Arman Shaikh" />
+    <meta property="og:title" content="Arman Shaikh · Software Engineer &amp; Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="TypeScript, Node.js, REST APIs, PostgreSQL/MongoDB and AI application development with LLM APIs and MCP. Software Engineering Intern at SharpFlux Technologies." />
+    <meta property="og:locale" content="en_IN" />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- The site is light by design; dark only when the visitor chose it with the toggle. Applied before first
+         paint (no flash). Mirrors src/lib/theme.ts. -->
+    <script>
+      (function () {
+        var dark = false;
+        try {
+          dark = localStorage.getItem("theme") === "dark";
+        } catch (e) {}
+        if (dark) document.documentElement.classList.add("dark");
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute("content", dark ? "#0c0a09" : "#fafaf9");
+      })();
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Arman Shaikh",
+        "jobTitle": "Software Engineering / Full Stack Intern",
+        "worksFor": { "@type": "Organization", "name": "SharpFlux Technologies" },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Ahmednagar",
+          "addressRegion": "Maharashtra",
+          "addressCountry": "IN"
+        },
+        "email": "mailto:armanshaikh0710@gmail.com",
+        "knowsAbout": ["TypeScript", "REST APIs", "Node.js", "Python", "PostgreSQL", "MongoDB", "LLM APIs", "MCP"]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <main style="font-family: system-ui, sans-serif; max-width: 40rem; margin: 4rem auto; padding: 0 1rem; line-height: 1.6">
+        <h1>Arman Shaikh</h1>
+        <p>Software Engineer · Full Stack Developer · AI Application Developer</p>
+        <p>
+          Email: <a href="mailto:armanshaikh0710@gmail.com">armanshaikh0710@gmail.com</a> ·
+          <a href="/Arman_Shaikh_ATS_Resume.pdf">Resume (PDF)</a>
+        </p>
+      </main>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
